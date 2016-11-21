@@ -21,6 +21,7 @@ npm i --save-dev webpack
 
 npm i --save-dev webpack-dev-server
 
+npm i --save-dev eslint
 # add babel-loader
 npm i babel-loader babel-core babel-preset-es2015 babel-eslint --save-dev
 
@@ -40,5 +41,6 @@ npm i --save react-dom
 # TODO configure webpack, eslint and add build and dev scripts to package.json
 touch webpack.config.js
 touch .eslintrc
+touch index.html
 
 echo "Almost done: remember to configure webpack, eslint and add build and dev scripts to package.json"
